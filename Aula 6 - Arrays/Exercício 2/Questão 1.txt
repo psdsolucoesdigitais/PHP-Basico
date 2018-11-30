@@ -1,0 +1,7 @@
+
+	1. criar um formulário onde tenha os seguintes campos:
+
+		Nome: 
+		Estado civil: <tem que ser utilizado array para os options>
+		Idade: 
+		Estado: <os 28 estados do Brasil>

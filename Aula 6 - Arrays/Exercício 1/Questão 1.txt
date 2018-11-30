@@ -1,0 +1,5 @@
+
+	1. criar um formulário que receba 10 chaves e valores.
+	2. o usuário informe a forma de ordenar: 
+		por chave, por valor ou por valor mantendo a chave.
+		
