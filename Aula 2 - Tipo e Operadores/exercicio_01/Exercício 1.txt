@@ -1,0 +1,5 @@
+1. Uma empresa pretende realizar uma seleção com os seguintes critérios.
+
+	1. O candidato deve ser do sexo feminino
+	2. A cor dos olhos do candidato de ser: azuis ou verdes
+	3. A idade do usuário deve ser entre 03 e 08 anos

@@ -1,0 +1,7 @@
+1. Criar um formulário que contenha.
+Nome:
+Sexo:
+Lí e aceito o contrato:
+Estado Civil:
+
+Após isso pegar essas variáveis no PHP.
