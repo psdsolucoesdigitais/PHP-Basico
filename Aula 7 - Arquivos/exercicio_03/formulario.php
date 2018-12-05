@@ -13,7 +13,8 @@ foreach (scandir("./") as $pasta) {
 		echo $pasta."<br>";	
 
 		//pesquisa tipos de arquivo
-		foreach (glob("$pasta/*.{jpg,png}", GLOB_BRACE ) as $a) {
+		//foreach (glob("$pasta/*.{jpg,png}", GLOB_BRACE ) as $a) {
+		foreach (glob("$pasta/*.jpg") as $a) {
 			echo "<img src='$a' width='100px'><br>";
 		}
 	}
