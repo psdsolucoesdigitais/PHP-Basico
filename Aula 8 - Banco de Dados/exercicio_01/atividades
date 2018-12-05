@@ -1,0 +1,17 @@
+
+
+	1. Criar um sistema de matrícula de aluno de uma escola
+
+	1.1 o sistema deve receber nome e matrícula do aluno
+	1.2 o sistema deve listar os alunos cadastrados (nome e matrícula)
+
+	2. criar um formulário de cadastro de animal
+
+	2.1 Receber o nome e idade do animal e exibir na tela inicial
+
+	3. criar um sistema de cadastro de visitante
+
+	3.1 precisa cadastrar nome, rg, qual sala vai, a data e hora do 
+		cadastro e a foto.
+
+	3.2 criar listagem dos visitantes exibindo a foto deles.
