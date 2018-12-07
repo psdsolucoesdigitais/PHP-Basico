@@ -1,7 +1,6 @@
 <?php
 	session_start();
-
-	$con = new PDO("mysql:host=localhost;dbname=agenda", "root", "");
+	require "conexao.php";
 
 	$a1 = $_POST["login"];
 	$a2 = $_POST["senha"];
