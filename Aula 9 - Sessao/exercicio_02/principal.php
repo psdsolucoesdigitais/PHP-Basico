@@ -11,8 +11,20 @@
 Olá <?php echo $_SESSION["usuario.sistema"] ?>, seja bem vindo.
 <a href='sair.php'>[Sair]</a>
 <br><Br>
+
+<form>
+	Pesquisar: 
+	<input type="text" name="pesq" value="<?php echo $_GET["pesq"] ?>">
+	<input type="submit" value="Pesquisar">
+</form>
 <?php
-$sql = "SELECT * FROM usuario";
+
+	$sql 			 = "SELECT * FROM usuario";
+	$nome_pesquisado = $_GET["pesq"];
+
+	if (isset($nome_pesquisado)) {
+		$sql .= " WHERE login like '%$nome_pesquisado%' ";
+	}
 
 $retorno = $con->query($sql)->fetchAll();
 
