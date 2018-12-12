@@ -1,0 +1,6 @@
+1. Um cliente precisa de um sistema que:
+
+	Receba o nome do colaborador, seu salário e o percentual para aumento.
+
+	O sistema deve ter esse formulário e ao processar precisa informar o nome do colaborador,
+	o salário anterior e o novo salário, assim como informar o percentual aplicado.
