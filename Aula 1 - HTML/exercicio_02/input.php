@@ -9,6 +9,13 @@ País:
 Sexo: 	<input type="radio" name="sexo" value="M">Masculino
 		<input type="radio" name="sexo" value="F">Feminino
 <br>
+Receber newsletter: <input type="checkbox" name="receber" value="S">
+<br>
+Estado civil:
+	<select name="estado_civil">
+		<option value="C">Casado</option>
+		<option value="S">Solteiro</option>
+	</select>
 <input type="submit" value="Enviar dados">
 
 </form>

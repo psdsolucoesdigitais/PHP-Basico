@@ -1,5 +1,4 @@
 <?php
 
-	//echo $_POST["sexo"];
-	//echo $_GET["nome_completo"];
-	echo $_REQUEST["sexo"];
+	echo $_POST["nome_completo"];
+	echo "<br>";
