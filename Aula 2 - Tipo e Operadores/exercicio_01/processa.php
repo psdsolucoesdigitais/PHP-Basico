@@ -5,6 +5,16 @@
 	$cor_olhos 	= $_POST["cor_olhos"];
 
 	$resultado = "Reprovado";
+
+	if ($sexo == "feminino" && 
+		($cor_olhos == "azuis" || $cor_olhos == "verdes") 
+		&& $idade >= 3 && $idade <= 8) {
+				$resultado = "Aprovado";
+			}
+		}
+	}
+
+	/*
 	if ($sexo == "feminino") {
 		if ($cor_olhos == "azuis" || $cor_olhos == "verdes") {
 			if ($idade >= 3 && $idade <= 8) {
@@ -12,5 +22,5 @@
 			}
 		}
 	}
-
+	*/
 	echo $resultado;

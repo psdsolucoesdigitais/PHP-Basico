@@ -4,3 +4,9 @@
 
 	O sistema deve ter esse formulário e ao processar precisa informar o nome do colaborador,
 	o salário anterior e o novo salário, assim como informar o percentual aplicado.
+
+	resultado: Sr. <nome>, seu salário anterior era
+	<salario anterior>, teve aumento de <aumento>%
+	e novo salário é <salario anterior>+<aumento>
+
+	José, .... era 1.000, aumento de 8% e novo salário é 1.080

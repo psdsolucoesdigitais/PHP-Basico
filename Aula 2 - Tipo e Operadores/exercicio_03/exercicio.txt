@@ -1,0 +1,19 @@
+
+	Desenvolver um programa que:
+
+	1. Receba o nome do colaborador, salário,
+	   setor e anos de casa
+
+	Regra 1: caso o setor seja "Almoxarifado" ou 
+	"Administrativo" e anos de casa seja menor que 5, 
+	deve receber um aumento de 7,5%, caso seja 5 até 8 anos 
+	deve ser de 8%, acima de 8 deve ser de 11%, 
+	essa regra para salários de 900 à 1.500 caso 
+	contrário o aumento será de 3% de 1.501 à 1.900 e 2,5% 
+	acima de 1.900.
+	
+	Regra 2: Caso o setor seja "Limpeza", "Almoxarifado" 
+	ou "Motorista" e tempo de casa seja entre 2 e 3 anos o 
+	aumento deve ser de 5% para salários menor que 1.300
+	, 6% para salários de até 1.450 e 6,5% acima desse salário.
+
