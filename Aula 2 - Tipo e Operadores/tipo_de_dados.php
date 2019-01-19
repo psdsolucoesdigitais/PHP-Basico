@@ -4,10 +4,18 @@
 	$aula[] = 2;
 
 			variáveis e constantes
-			tipos de dados			
+			tipos de dados
 			operadores
 	*/
 
+	$a 	= -2147483648;
+
+
+	var_dump($a);
+	
 	
 
-	echo `dir`; // shell_exec
+
+
+
+	

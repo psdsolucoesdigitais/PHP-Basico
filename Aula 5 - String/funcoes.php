@@ -21,8 +21,37 @@
 				OK ucfirst
 				OK ucwords			
 	*/
-	
-	$texto  = "eu encontrei algo no texto encontrei";
-	$texto2 = str_split($texto, 4);
 
-	var_dump($texto2);
+				$to      = 'habnercarlos@gmail.com';
+$subject = 'the subject';
+$message = 'hello';
+$headers = 'From: habnercarlos@gmail.com' . "\r\n" .
+    'Reply-To: webmaster@example.com' . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+
+	var_dump(mail($to, $subject, $message, $headers));
+	die;
+
+	$a = "php é uma programação";
+	// 0 != false || tipo_e != tipo_d
+	// false != false || tipo_e != tipo_d
+	if ($posicao = strripos($a, "PHP") !== false) {
+		echo "posição no texto " . $posicao;
+	} else {
+		echo "falso";
+	}
+
+	<textarea name=""></textarea>
+
+	die;
+
+	$a = "meu texto existe";
+	echo strpos($a, "texto");
+
+
+
+
+	die;
+
+	//tamanho de uma string
+	echo strlen("php e mysql");
