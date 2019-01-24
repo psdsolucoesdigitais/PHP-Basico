@@ -3,13 +3,15 @@
 	// banco de dados
 
 	/* Connect to a MySQL database using driver invocation */
+
+	//$Nome = 
 	
-	$conexao = new PDO("mysql:dbname=escola;host=localhost", "root", "");
+	include "conexao.php";
 
 	$sql = "INSERT INTO aluno (matricula, nome)
-			VALUES ('2019001', 'jose')";
+			VALUES ('$matricula', '$nome')";
 
 	$resultado = $conexao->query($sql);
 
-	var_dump($resultado);
+	header("location: listagem.php");
 	
