@@ -13,7 +13,10 @@ require "Contato.php";
 <?php
 	$contato = new Contato;
 	foreach ($contato->listar() as $b) {
-		echo $b->nome." - ".$b->telefone."<a href='contato_delete.php?id=".$b->id."'>[Excluir]</a><br>";
+		echo $b->nome." - ".$b->telefone
+			."&nbsp;&nbsp; <a href='contato_delete.php?id=".$b->id."'>[Excluir]</a>"
+			."&nbsp;&nbsp; <a href='form_cadastro.php?id=".$b->id."'>[Editar]</a>
+			<br>";
 	}
 ?>
 

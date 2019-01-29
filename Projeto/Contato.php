@@ -22,6 +22,19 @@ class Contato {
 		return $retorno ? true : false;
 	}
 
+	public function atualizar() {
+		$con 		= new Conexao();
+		$id			= $this->id;
+		$nome		= $this->nome;
+		$telefone 	= $this->telefone;
+
+		$sql = "UPDATE contato set nome='$nome'
+				, telefone='$telefone' where id = $id ";
+		$retorno = $con->exec($sql);
+
+		return $retorno ? true : false;
+	}
+
 	public function deletar() {
 		$con 	= new Conexao();
 		$id		= $this->id;
